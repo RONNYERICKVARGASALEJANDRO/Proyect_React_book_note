@@ -1,0 +1,25 @@
+/* Cuadro de formulario con efecto vidrio */
+.modalContainer {
+    position: fixed;
+    left: 10%;  /* Ajusta la posición a la izquierda */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%; /* Ajusta el ancho para alinearse mejor */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Responsivo para móviles */
+/* Ajuste para móviles */
+@media (max-width: 768px) {
+    .modalContainer {
+        width: 90%;
+        left: 5%;
+    }
+}

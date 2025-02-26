@@ -1,0 +1,229 @@
+body {
+  height: 100vh;
+  background-image: url("https://images7.alphacoders.com/138/thumb-1920-1383627.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#root {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.App {
+  display: grid;
+  justify-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  /* Fondo semitransparente */
+  backdrop-filter: blur(10px);
+  /* Efecto de vidrio */
+  border-radius: 15px;
+  /* Bordes redondeados */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Sombra suave */
+  margin: 6%;
+  padding: 4%;
+  width: 60%;
+  max-width: 75%;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #111; /* Negro intenso */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-align: center; /* Centra el texto */
+  margin: 20px auto; /* Centra el `h1` */
+  padding: 10px;
+  border-bottom: 3px solid #ccc; /* Línea gris debajo */
+  display: inline-block; /* Ajusta el ancho al texto */
+}
+h1 span{
+  font-weight: bold;
+  color: red;
+  border-radius: 4px;
+  padding: 0px 5px;
+  
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  /* Alinea verticalmente */
+  gap: 10px;
+  /* Espacio entre el texto y el input */
+  width: 300px;
+}
+
+input {
+  height: 28px;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 15px;
+}
+
+ul li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* Centra el texto dentro */
+  align-items: center;
+  padding: 10px 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  /* Bordes redondeados */
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  /* Sombra ligera */
+  width: fit-content;
+  /* Ajusta el ancho al contenido */
+  list-style: none;
+  text-align: center;
+  position: relative;
+  /* Permite posicionar los iconos dentro */
+
+
+}
+
+.material-icons {
+  color: rgba(0, 0, 0, 0.541);
+  font-size: 38px;
+  /* Tamaño de los iconos */
+  cursor: pointer;
+  /* Hace que los iconos sean clickeables */
+  position: absolute;
+
+}
+
+
+ul li p {
+  margin: 0;
+  padding: auto;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.p-itmem--completed{
+  text-decoration: line-through;
+
+}
+
+.icon-check--active{
+  color: lawngreen;
+}
+
+/* Icono de check (superior izquierda, saliendo del contenedor) */
+#check {
+  left: -20px;
+  bottom: -10px;
+  /* Lo saca del contenedor */
+}
+
+#check:hover {
+  color: lawngreen;
+  transform: scale(1.2); /* Le da un efecto de agrandamiento */
+
+
+}
+
+/* Icono de cancel (inferior derecha, saliendo del contenedor) */
+#cancel {
+  top: -10px;
+  /* Lo saca del contenedor */
+  right: -20px;
+
+}
+
+#cancel:hover {
+  color: red;
+  transform: scale(1.2); /* Le da un efecto de agrandamiento */
+  
+
+}
+
+
+
+.input-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  /* Fondo blanco */
+  padding: 10px 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  /* Borde gris claro */
+
+}
+
+/* Estilo de la etiqueta */
+.input-container label {
+  color: #222;
+  /* Negro suave */
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Estilo del input */
+.input-container input {
+  background: #f8f8f8;/* Gris muy claro */
+  border: 1px solid #ddd;/* Borde gris */
+  color: #333;/* Texto negro suave */
+  padding: 8px 12px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Placeholder en color gris claro */
+.input-container input::placeholder {
+  color: #777;
+}
+
+/* Efecto cuando el input está en foco */
+.input-container input:focus {
+  background: #d4d0d0; /* Mantiene el fondo blanco */
+  border: 1px solid #444; /* Resalta el borde en gris oscuro */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* Texto blanco */
+  background-color: #333; /* Fondo gris oscuro */
+  border: none;
+  padding: 12px 25px; /* Espaciado interno */
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer; /* Aparece como puntero al pasar por encima */
+  transition: all 0.3s ease; /* Transición suave */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
+}
+
+/* Efecto Hover */
+button:hover {
+  background-color: #000000; /* Gris claro al pasar el ratón */
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.4); /* Aumenta la sombra */
+  transform: scale(1.05); /* Le da un efecto de agrandamiento */
+}

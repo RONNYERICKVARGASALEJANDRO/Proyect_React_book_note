@@ -1,0 +1,25 @@
+
+.danger-container {
+    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100%;
+  height: 150px;
+
+  }
+  
+  .danger-icon {
+    font-size: 50px;
+    color: orange; /* Color del icono de peligro */
+  }
+  
+  .danger-text {
+    margin-top: 10px;
+    color: black; /* Texto blanco */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

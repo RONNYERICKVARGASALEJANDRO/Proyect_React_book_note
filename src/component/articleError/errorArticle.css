@@ -1,0 +1,22 @@
+.error-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+    height: 150px;
+  }
+  
+  .error-icon {
+    font-size: 50px;
+    color: red; /* Color rojo para el icono de error */
+  }
+  
+  .error-text {
+    margin-top: 10px;
+    color: red; /* Texto blanco */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,84 @@
+/* Cuadro de formulario con efecto vidrio */
+.modalContainer {
+    position: fixed;
+    left: 10%;  /* Ajusta la posición a la izquierda */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%; /* Ajusta el ancho para alinearse mejor */
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* Responsivo para móviles */
+/* Ajuste para móviles */
+@media (max-width: 768px) {
+    .modalContainer {
+        width: 90%;
+        left: 5%;
+    }
+}
+/* Estilos del formulario */
+.modalContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.modalContainer label {
+    font-weight: bold;
+}
+
+.modalContainer input,
+.modalContainer textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 16px;
+}
+
+/* Botón de Guardar */
+.modalContainer button[type="submit"] {
+    width: 25%;
+    padding: 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.modalContainer button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Botón de cerrar */
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.closeButton:hover {
+    background: #e60000;
+}
+
+
