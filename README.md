@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Repositorio base del Curso de Introducción a React.js en Platzi
 
 ¡Hola, Platzinauta!
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Proyect_React_book_note
+Repositorio de proyecto de react, donde se realizo un cuaderno virtual para anotaciones t recordatorios usando los fundamentos de react aplicando conceptos.
+>>>>>>> c7ae4d3c0f039d6f40c4eebca998b2df567a1717
