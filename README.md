@@ -1,6 +1,3 @@
-Aquí tienes un ejemplo de texto para el **`README.md`** de tu proyecto, describiendo que creaste un **cuaderno de anotaciones virtuales** con **React**:
-
----
 
 # Cuaderno de Anotaciones Virtuales
 
@@ -55,5 +52,4 @@ Si quieres contribuir a este proyecto, sigue estos pasos:
 4. Sube tus cambios (`git push origin nueva-rama`).
 5. Crea un pull request.
 
----
 
